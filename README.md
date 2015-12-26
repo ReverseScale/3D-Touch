@@ -3,4 +3,4 @@
 
 页面截图：
 
-![ABC](https://raw.githubusercontent.com/ReverseScale/AddressBookSimple/master/B2D49561-83D2-4F60-8021-F3A2B6B15C10.png) 
+![ABC](https://raw.githubusercontent.com/ReverseScale/3D-Touch/master/8D712142-D657-4E2D-A475-393F9CD3BB5B.png) 
