@@ -2,12 +2,11 @@
 //  AppDelegate.m
 //  Touch
 //
-//  Created by Camille on 15/12/4.
-//  Copyright © 2015年 Camille. All rights reserved.
+//  Created by Steven on 15/12/4.
+//  Copyright © 2015年 Steven. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,11 +16,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    // 设置根视图导航控制器
-    ViewController *v = [[ViewController alloc] init];
-    UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:v];
-    self.window.rootViewController = na;
     return YES;
 }
 // 用来处理3D Touch触发事件

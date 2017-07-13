@@ -2,8 +2,8 @@
 //  ViewController.m
 //  Touch
 //
-//  Created by Camille on 15/12/4.
-//  Copyright © 2015年 Camille. All rights reserved.
+//  Created by Steven on 15/12/4.
+//  Copyright © 2015年 Steven. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -75,7 +75,7 @@
 {
     viewControllerToCommit.view.backgroundColor = [UIColor whiteColor];
     [self showViewController:viewControllerToCommit sender:self];
-
+    
 }
 - (void)viewDidLoad {
     [super viewDidLoad];

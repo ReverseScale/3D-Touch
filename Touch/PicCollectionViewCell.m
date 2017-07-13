@@ -2,9 +2,10 @@
 //  PicCollectionViewCell.m
 //  Touch
 //
-//  Created by Camille on 15/12/5.
-//  Copyright © 2015年 Camille. All rights reserved.
+//  Created by Steven on 15/12/4.
+//  Copyright © 2015年 Steven. All rights reserved.
 //
+
 
 #import "PicCollectionViewCell.h"
 
@@ -23,7 +24,7 @@
         
         self.image = [[UIImageView alloc] init];
         [self.contentView addSubview:self.image];
-
+        
         
     }
     return self;
@@ -33,7 +34,7 @@
     
     self.image.frame = CGRectMake(0, 0, self.contentView.frame.size.width, self.contentView.frame.size.height);
     self.contentView.backgroundColor = [UIColor whiteColor];
-
+    
     
     
 }
@@ -41,8 +42,8 @@
 - (void)setName:(NSString *)name {
     _name = name;
     self.image.image = [UIImage imageNamed:self.name];
-
-
+    
+    
 }
 
 
